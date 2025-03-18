@@ -1,0 +1,477 @@
+*{
+    background-color: #B2C9AD;
+    
+}
+.sidebar{
+    background-color: #91AC8F;
+    height: 650px;
+    width: 300px;
+    border-radius: 30px;
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    float: right;
+    /* margin-left: 100px; */
+    margin-right: 1200px;
+    
+}
+/* .sidebar:hover{
+box-shadow: 0px 0px 10px 20px rgb(117, 100, 100);
+transition: 0.2s ease-in-out;
+} */
+#Mypicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+#Mypicture:hover{
+    /* height: 205px;
+    width: 205px; */
+    box-shadow: 0px 0px 10px 10px #ECDFCC;
+    transition-duration: 0.3s;
+    top: 30px;
+}
+#name{
+    position: relative;
+    top: 90px;
+    left: 40px;
+    background-color: #91AC8F;
+    cursor:default;
+}
+#name:hover{
+    color: wheat;
+    transition: 0.5s;
+}
+
+#personpng{
+    height: 27px;
+    width: 27px;
+    position: relative;
+    top: 114px;
+    right: 195px;
+    background: transparent;
+    color: rgb(160, 115, 48);
+}
+#course{
+    background-color: 007ea7;
+    color: white;
+    border: 1.7px solid white;
+    border-radius: 6px;
+    position: relative;
+    top: 90px;
+    left: 70px;
+    width: 150px;
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    cursor: default;
+}
+#course:hover{
+    background-color: rgb(50, 46, 46);
+    transition: 0.3s;
+}
+#gmail{
+    height: 27px;
+    width: 27px;
+    background: transparent;
+    position: relative;
+    top: 104px;
+    left: 5px;
+}
+.gmail{
+        position: relative;
+        top: 98px;
+        left: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: #91AC8F;
+}
+.gmail:hover{
+    /* border: 1px solid white;
+    background-color: rgb(59, 53, 53); */
+    color: wheat;
+    transition: 0.3s;
+    /* border-radius: 3px;
+    box-shadow: 0px 0px 10px 5px black */
+}
+#call{
+    height: 20px;
+    width: 20px;
+    background: transparent;
+    position: relative;
+    top: 144px;
+    right: 258px;
+    cursor: default;
+}
+.call{
+    
+    text-decoration: none;
+    color: black;
+    background-color: #91AC8F;
+    position: relative;
+    top: 79px;
+    left: 39px;
+}
+.call:hover{
+    color: wheat;
+    transition: 0.3s;
+}
+#dob{
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    position: relative;
+    top: 144px;
+    right: 97px;
+}
+/* .dob{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(98, 84, 84) ;
+    position: relative;
+    top: 124px;
+    right: 110px;
+} */
+.dob{
+    height: 60px;
+    width: 160px;
+    background-color:#91AC8F;
+    position: relative;
+    top: 89px;
+    /* right: 110px; */
+    left: 35px;
+    cursor: default;
+}
+.dob:hover{
+    color: wheat;
+    transition: 0.3s;
+}
+#location{
+    height: 50px;
+    width: 50px;
+    background-color:#697565 ;
+    position: relative;
+    top: 39px;
+    right: 10px;
+    background: transparent;
+    cursor: default;
+}
+.location{
+    height: 60px;
+    width: 260px;
+    background-color:#697565 ;
+    position: relative;
+
+    bottom: 10px;
+    background: transparent;
+    /* right: 110px; */
+    left: 35px;
+    cursor: default;
+}
+.location:hover{
+    color: wheat;
+    transition: 0.3s;
+}
+#github{
+    height: 27px;
+    width: 27px;
+    background-color:rgb(98, 84, 84) ;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    background: transparent;
+    cursor: default;
+}
+.github{
+    background: transparent;
+}
+#linkedin{
+    height: 35px;
+    width: 35px;
+    background-color:rgb(98, 84, 84) ;
+    position: relative;
+    bottom: 80px;
+    left: 85px;
+    background: transparent;
+    cursor: default;
+}
+#leetcode{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(98, 84, 84) ;
+    position: relative;
+    bottom: 133px;
+    left: 128px;
+    background: transparent;
+    cursor: default;
+}
+
+
+/* NAVIGATION BAR */
+.navbar{
+    height: 70px;
+    width: 700px;
+    background-color:#91AC8F;
+    position: relative;
+    left: 800px;
+    top: 10px;
+    float: left;
+    border-radius: 20px;
+}
+.text{
+    background-color:#91AC8F ;
+    margin: 50px;
+    position: relative;
+    top: 25px;
+    display: inline;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text:hover{
+    text-decoration: underline;
+    color: wheat;
+    transition: 0.4s;
+}
+
+ /* MAIN */
+.main{
+    height: 1000px;
+    width: 1180px;
+    background-color: #6c8064;
+    position: fixed;
+    left: 330px;
+    top: 100px;
+    border-radius: 20px;
+    /* Hide scrollbars */
+    overflow: scroll;
+  animation: fadeIn 1s infinite;
+}
+.aboutme{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+    animation: moveright 0.4s ease-in-out 1;
+    
+}
+#about{
+    position: relative;
+    left: 140px;
+    top: 20px;
+    width: 150px;
+    background-color: #8EB486 ;
+    color: white;
+}
+#aboutmetext{
+    background-color:#8EB486 ;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 60px;
+    top: 30px;
+    height: 300px;
+    width: 300px;
+}
+.aboutme:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+    
+}
+.educationalbackground{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 690px;
+    bottom: 380px;
+    animation: moveleft 0.4s ease-in-out 1;
+}
+#educational{
+    background-color:#8EB486 ;
+    color: rgb(255, 255, 255) ;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 350px;
+}
+.educationalbackground:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+    
+}
+#backgroundtext{
+    background-color:#8EB486;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 60px;
+    top: 30px;
+    height: 300px;
+    width: 300px;
+}
+.professionalexperience{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 70px;
+    bottom: 200px;
+    animation: moveright 0.4s ease-in-out 1;
+}
+#professinal{
+    background-color:#8EB486;
+    color: rgb(255, 246, 246);
+    position: relative;
+    left: 35px;
+    top: 20px;
+    width: 350px;
+}
+#professionaltext{
+    background-color:#8EB486;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+    top: 30px;
+    height: 300px;
+    width: 300px;
+}
+.professionalexperience:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+    height: 450px;
+    width: 450px;
+}
+#professionaltext:hover{
+    height: 350px;
+    width: 350px;
+}
+.technicalskills{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 690px;
+    bottom: 620px;
+    animation: moveleft 0.4s ease-in-out 1;
+}
+#skills{
+    background-color:#8EB486;
+    color: rgb(252, 252, 252) ;
+    position: relative;
+    left: 110px;
+    top: 20px;
+    width: 250px;
+}
+#skillstext{
+    background-color:#8EB486;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 60px;
+    top: 30px;
+    height: 300px;
+    width: 300px;
+}
+.technicalskills:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+    height: 450px;
+    width: 450px;
+}
+#skillstext:hover{
+    height: 350px;
+    width: 350px;
+}
+.strengthsandapproach{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    bottom: 400px;
+    border: 20px;
+    animation: moveright 0.4s ease-in-out 1;
+}
+.strength{
+    background-color:#8EB486;
+    color: white ;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    width: 350px;
+}
+#strengthtext{
+    background-color:#8EB486;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 30px;
+    top: 30px;
+    height: 300px;
+    width: 350px;
+}
+.strengthsandapproach:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+}
+.passionforlearning{
+    height: 400px;
+    width: 400px;
+    background-color: #8EB486;
+    border-radius: 20px;
+    position: relative;
+    left: 690px;
+    bottom: 819px;
+    border: 20px;
+    animation: moveleft 0.4s ease-in-out 1;
+}
+#passion{
+    background-color:#8EB486;
+    color: white ;
+    position: relative;
+    left: 70px;
+    top: 40px;
+    width: 300px;
+}
+#passiontext{
+    background-color:#8EB486;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 60px;
+    top: 80px;
+    height: 200px;
+    width: 300px;
+}
+.passionforlearning:hover{
+    box-shadow: 0px 0px 40px 20px #181C14;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+@keyframes moveright {
+     0% {
+    transform: translateX(-100%);
+     }
+100% {
+    transform: translateX(0%); 
+}
+}
+@keyframes moveleft {
+    from {
+    transform: translateX(100%);
+    }
+    to {
+    transform: translateX(0%);
+    }
+}
